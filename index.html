@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Data Analyst | Portfolio</title>
+  <meta name="description" content="Personal portfolio website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <header class="site-header" id="top">
+    <a href="#top" class="logo"> 
+        <img src="logo1.png" alt="Logo du portfolio" class="logo-img" /> </a>
+    <nav class="nav" id="nav">
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section reveal" id="hero">
+      <h1> Ikram Ettafki </h1>
+      <p class="subtitle">Data Analyst</p>
+      <div class="hero-actions">
+        <a href="assets/CV_ikram.pdf" class="btn btn-primary" target="_blank" download rel="noopener noreferrer">Voir mon CV</a>
+        <!-- <a href="#contact" class="btn btn-ghost">Let’s Talk</a> -->
+      </div>
+    </section>
+
+    <section class="section reveal" id="about">
+      <h2>À propos</h2>
+      <p>Data analyst avec un background en analyse économique, je m’intéresse avant tout à ce que racontent les données et à la manière dont elles permettent d’éclairer des décisions concrètes.<p>
+
+    J’aime comprendre les mécanismes derrière les chiffres, identifier des relations, tester des hypothèses et donner du sens à des données parfois complexes. C’est cette démarche d’analyse et de structuration qui me motive au quotidien.<p>
+
+    Au cours de mon parcours, j’ai travaillé sur des problématiques liées à la mobilité et à l’accès à l’emploi, en mobilisant des méthodes statistiques comme la segmentation et la régression.<p>
+
+    Mon approche repose sur une base rigoureuse issue de l’économétrie, que j’applique avec un objectif clair : produire des analyses utiles, lisibles et directement exploitables.<p>
+
+    Diplômé récemment, je suis aujourd’hui à la recherche d’une première opportunité en data analyse.<p>
+
+    N'hésitez pas à parcourir mes projets pour en découvrir davantage &#128522;</p>
+    </section>
+
+<section class="section reveal" id="skills">
+  <h2>Compétences</h2>
+
+  <div class="skill-group">
+    <h3>Compétences techniques</h3>
+    <div class="tech-grid">
+      <article class="card tech-card"><strong>Analyse statistique </p></strong> Segmentation, régression et interprétation des résultats pour appuyer la prise de décision.</article>
+      <article class="card tech-card"><strong>Préparation des données et ETL</p></strong> Nettoyage, transformation et structuration des données pour les rendre exploitables.</article>
+      <article class="card tech-card"><strong>Visualisation de données</p></strong> Création de dashboards clairs et interactifs pour présenter des informations efficacement.</article>
+      <article class="card tech-card"><strong>Gestion de projet</p></strong> Organisation, suivi et coordination des tâches pour livrer des analyses utiles dans les délais.</article>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <h3>Outils</h3>
+    <div class="chips">
+      <span>SQL</span><span>Python</span><span>Power BI</span><span>R</span>
+      <span>Excel</span><span>Power Query</span><span>KNIME</span><span>Trello</span><span>Notion</span><span>GIT</span>
+    </div>
+  </div>
+
+<div class="skill-group">
+  <h3>Certifications</h3>
+  <div class="chips">
+    <a href="https://learn.microsoft.com/fr-fr/users/ikramettafki-9070/credentials/12b470cac292222?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer">
+      Associé Analyste de Données Certifié Microsoft Power BI (PL-300)
+    </a>
+    <a href="https://drive.google.com/file/d/14FRUt1Pt3EcVsPsswW_n82gLt2cSJPrl/view" target="_blank" rel="noopener noreferrer">
+      RGPD CNIL
+    </a>
+  </div>
+</div>
+
+  <div class="skill-group">
+    <h3>Soft Skills</h3>
+    <div class="chips">
+      <span>Esprit analytique</span><span>Communication</span><span>Sens du détail</span><span>Travail en équipe</span><span>Autonomie</span>
+    </div>
+  </div>
+</section>
+
+    <section class="section reveal" id="projects">
+      <h2>Mes projets</h2>
+      <div class="project-grid">
+
+        <article class="card project-card">
+          <img src="assets/sales_report.jpeg" alt="Aperçu du projet reporting des ventes" class="project-card-image" />
+          <div class="project-card-content">
+            <h3>Reporting des ventes et analyse de performance</h3>
+            <div class="project-tags">
+              <span class="powerbi-text">Power BI</span>
+            </div>
+            <p>Une analyse visuelle et interactive des performances clés pour mieux comprendre les dynamiques de l’entreprise.</p>
+            <a href="https://github.com/data-with-Ikram/Analyse-ventes-project" class="inline-link" target="_blank" rel="noopener noreferrer">Voir le projet →</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <img src="assets/web_scrapping.jpeg" alt="Aperçu du projet rweb scrapping" class="project-card-image" />
+          <div class="project-card-content">
+            <h3>Web scraping & analyse</h3>
+            <div class="project-tags">
+              <span class="powerbi-text">Python</span>
+            </div>
+            <p>Transformation de données web non structurées en analyses exploitables pour piloter la stratégie commerciale d’une librairie.</p>
+            <a href="https://github.com/data-with-Ikram/Webscraping-project" class="inline-link" target="_blank" rel="noopener noreferrer">Voir le projet →</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <img src="assets/modelisation_donnees.jpeg" alt="Aperçu du projet Modélisation & structuration des données" class="project-card-image" />
+          <div class="project-card-content">
+            <h3>Modélisation & structuration des données</h3>
+            <div class="project-tags">
+              <span class="powerbi-text">SQL</span>
+              <span class="powerbi-text">Excel</span>
+              <span class="powerbi-text">KNIME</span>
+            </div>
+            <p>Analyse du marché immobilier français pour fournir des indicateurs clés aux agences et orienter leurs décisions.</p>
+            <a href="https://github.com/data-with-Ikram/Analyse-marche-immobilier-project" class="inline-link" target="_blank" rel="noopener noreferrer">Voir le projet →</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <img src="assets/data_pipeline.jpeg" alt="Aperçu du projet Data pipeline & automatisation" class="project-card-image" />
+          <div class="project-card-content">
+            <h3>Data pipeline & automatisation</h3>
+            <div class="project-tags">
+              <span class="powerbi-text">Python</span>
+              <span class="powerbi-text">Spark</span>
+              <span class="powerbi-text">API REST</span>
+            </div>
+            <p>Mise en place d’une solution data automatisée permettant de collecter, structurer et exploiter les données</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<section class="section reveal" id="availability">
+  <h2>Disponibilité</h2>
+  <div class="availability-banner">
+    <div class="availability-left">
+      <p class="availability-title">Prête à intégrer votre équipe</p>
+    </div>
+    <div class="availability-right">
+      <ul class="availability-list">
+        <li>Mobilité sur toute la France</li>
+        <li>Contrats recherchés : CDI, CDD</li>
+        <li>Ouverte au présentiel, hybride ou full remote</li>
+        <li>Disponible rapidement pour un entretien</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="section reveal" id="contact">
+      <h2>Me contacter</h2>
+      <p>Vous souhaitez me contacter : ikramettafki1@gmail.com</a></p>
+      <div class="socials">
+       <a href="https://www.linkedin.com/in/ikram-ettafki" class = "social-link"target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="assets/code_linkedin.svg" alt="LinkedIn" class="social-icon" /></a>
+       <a href="https://github.com/data-with-Ikram/Portfolio" class = "social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="assets/code_github.svg" alt="GitHub" class="social-icon" /></a>
+    </section>
+</div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ikram Ettafki. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
